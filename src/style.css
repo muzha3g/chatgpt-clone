@@ -1,0 +1,143 @@
+* {
+  font-family: "Afacad", sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: #343541 !important;
+  display: flex;
+}
+
+.side-bar {
+  background: #202123;
+  height: 100vh;
+  width: 244px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  border: solid 0.5px rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 30px;
+  width: 90%;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+}
+
+.history {
+  padding: 10px;
+  margin: 10px;
+  height: 68%;
+}
+
+.history li {
+  list-style-type: none;
+  padding: 15px 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.history li:hover {
+  background: rgba(183, 185, 187, 0.3);
+  border-radius: 10px;
+}
+
+.info {
+  color: rgba(183, 185, 187, 0.6);
+  font-size: 15px;
+  padding: 2px;
+  margin-top: 5px;
+}
+
+.bottom-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  padding: 0;
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 650px;
+  justify-content: center;
+}
+
+input {
+  color: #202123;
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 8px 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 54px 55px, rgba(0, 0, 0, 0.05) 0 -12px 30px,
+    rgba(0, 0, 0, 0.05) 0 4px 6px, rgba(0, 0, 0, 0.05) 0 12px 3px,
+    rgba(0, 0, 0, 0.05) 0 -3px 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#submit {
+  font-size: 45px;
+  position: relative;
+  top: -10px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.feed {
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  padding: 0;
+}
+
+.feed li {
+  list-style-type: none;
+  display: flex;
+  background: #444654;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 15px;
+}
+
+.feed p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  text-align: left;
+}
+
+.feed p.role {
+  min-width: 100px;
+}
