@@ -3,13 +3,13 @@
   "builds": [
     {
       "src": "./server.js",
-      "user": "vercel/nodemon"
+      "user": "@vercel/nodemon"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dist": "/"
+      "dest": "/"
     }
   ]
 }
