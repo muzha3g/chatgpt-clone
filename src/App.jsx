@@ -97,6 +97,7 @@ function App() {
             <input
               type="text"
               value={value}
+              placeholder="Ask me something..."
               onChange={(e) => setValue(e.target.value)}
             />
             <div id="submit" onClick={getMessages}>
